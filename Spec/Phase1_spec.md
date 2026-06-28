@@ -5,8 +5,8 @@
 - [x] `.gitignore` updated
 - [x] `.env` created
 - [x] `.env.example` created
-- [ ] Docker Compose + PostgreSQL
-- [ ] FastAPI skeleton + /health
+- [x] Docker Compose + PostgreSQL
+- [x] FastAPI skeleton + /health
 - [ ] SQLAlchemy models + Alembic
 - [ ] JWT auth
 - [ ] Workspace CRUD

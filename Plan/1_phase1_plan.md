@@ -91,8 +91,8 @@ User
 7. Next.js frontend (register, login, dashboard)
 
 ## Done When
-- [ ] `docker compose up` starts all services cleanly
-- [ ] `GET /health` returns `{"status": "ok"}`
+- [x] `docker compose up` starts all services cleanly
+- [x] `GET /health` returns `{"status": "ok"}`
 - [ ] User can register
 - [ ] User can login
 - [ ] User can create, list, delete workspaces
