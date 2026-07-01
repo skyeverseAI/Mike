@@ -6,7 +6,7 @@ from sqlalchemy import pool
 from alembic import context
 from app.core.config import settings
 from app.db.base import Base
-from app.models import user, workspace
+from app.models import user, workspace, document_source, file_status
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.

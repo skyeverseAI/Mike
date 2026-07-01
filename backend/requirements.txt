@@ -9,3 +9,5 @@ bcrypt==3.2.2
 python-dotenv
 pydantic-settings
 email-validator
+qdrant-client
+watchdog

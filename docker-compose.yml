@@ -11,6 +11,14 @@ services:
       - postgres_data:/var/lib/postgresql/data
     ports:
       - "5432:5432"
+
+  qdrant:
+    image: qdrant/qdrant:latest
+    ports:
+      - "6333:6333"
+    volumes: 
+      - qdrant_data:/qdrant/storage
+
   backend:
     build: ./backend
     restart: always
@@ -21,6 +29,11 @@ services:
       - db
     volumes:
       - ./backend:/app
+      - ./watched/contracts:/watched/contracts
 
 volumes:
   postgres_data:
+  qdrant_data:
+
+
+  

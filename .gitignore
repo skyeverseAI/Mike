@@ -33,3 +33,6 @@ yarn-error.log*
 # OS
 .DS_Store
 Thumbs.db
+
+# Watched folder (local test files)
+watched/

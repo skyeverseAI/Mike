@@ -8,9 +8,9 @@
 - [x] Docker Compose + PostgreSQL
 - [x] FastAPI skeleton + /health
 - [ ] SQLAlchemy models + Alembic
-- [ ] JWT auth
-- [ ] Workspace CRUD
-- [ ] Next.js frontend
+- [x] JWT auth
+- [x] Workspace CRUD
+- [x] Next.js frontend
 
 ---
 
